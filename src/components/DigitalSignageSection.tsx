@@ -85,12 +85,12 @@ const DigitalSignageSection = () => (
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ delay: i * 0.08, duration: 0.4 }}
                 whileHover={{ y: -4, scale: 1.02 }}
-                className="relative rounded-xl overflow-hidden shadow-lg border border-border group cursor-pointer aspect-[4/5]"
+                className="relative rounded-xl overflow-hidden shadow-lg border border-border group cursor-pointer aspect-[3/4]"
               >
                 <img
                   src={t.src}
                   alt={t.alt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
                   width={896}
                   height={1152}
