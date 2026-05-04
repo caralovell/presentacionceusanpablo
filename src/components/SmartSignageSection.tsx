@@ -4,8 +4,8 @@ import ScrollReveal from "./ScrollReveal";
 import NavilensSection from "./NavilensSection";
 import iconQr from "@/assets/qr-code-example.png";
 import iconNfc from "@/assets/shape-outline.png";
-import qrAscires from "@/assets/qr-ascires.png";
-import nfcWipass from "@/assets/CODIGOceu.png";
+import qrAscires from "@/assets/CODIGOceu.png";
+import nfcWipass from "@/assets/nfc-wipass.png";
 
 const nfcUseCases = [
   { icon: CheckCircle2, text: "Registro automático de asistencia al entrar al aula" },
