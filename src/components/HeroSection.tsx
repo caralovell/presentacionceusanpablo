@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import LogopostLogo from "./LogopostLogo";
-import asciresLogo from "@/assets/ascires-logo.png";
+import CEULogo from "@/assets/ceu-logo.png";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 16 },
@@ -30,9 +30,7 @@ const HeroSection = () => (
     <div className="relative z-10 flex flex-col items-center gap-8 max-w-3xl w-full">
       {/* 1. Client logo */}
       <motion.div {...fadeUp(0.1)}>
-        <div className="h-48 md:h-64 w-80 md:w-[28rem] bg-muted flex items-center justify-center text-muted-foreground text-sm uppercase tracking-[0.3em]">
-          Logo Educacion
-        </div>
+        <CEULogo className="h-12 md:h-14 w-auto" />
       </motion.div>
 
       {/* 2. Label */}
