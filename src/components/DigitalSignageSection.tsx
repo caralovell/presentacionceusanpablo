@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
 import cmsDashboard from "@/assets/dashboard-mockup.png";
 import player from "@/assets/android-media-player.jpg";
-import epaperDisplay from "@/assets/epaper-display.jpg";
-import totemMain from "@/assets/totem-main.jpg";
-import totem1 from "@/assets/totem-1.jpg";
-import totem2 from "@/assets/totem-2.jpg";
-import totem3 from "@/assets/totem-3.jpg";
-import totem4 from "@/assets/totem-4.jpg";
+import epaperDisplay from "@/assets/epaper-display.png";
+import totemMain from "@/assets/maintotem.png";
+import totem1 from "@/assets/totem1.png";
+import totem2 from "@/assets/totem2.png";
+import totem3 from "@/assets/totem3.png";
+import totem4 from "@/assets/totem4.png";
 
 const totemSecondary = [
   { src: totem1, alt: "Tótem digital informativo en campus universitario" },
