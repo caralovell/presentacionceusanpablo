@@ -81,7 +81,7 @@ const AiAgentSection = () => {
                     whileHover={{ scale: 1.06, y: arcOffsets[i] - 14, rotate: 0 }}
                   >
                     <div className="relative w-[200px] md:w-[240px] rounded-2xl overflow-hidden shadow-xl border border-border hover:border-accent/50 bg-card transition-colors duration-300">
-                      <div className="relative overflow-hidden aspect-[3/4]">
+                      <div className={`relative overflow-hidden ${i === 0 ? "aspect-[3/4]" : "aspect-[16/10]"}`}>
                         <img
                           src={b.img}
                           alt={b.title}
