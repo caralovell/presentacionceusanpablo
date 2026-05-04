@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { LayoutDashboard, FileText, Bell, Scale } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
-import iotTotem from "@/assets/dashboardtotem";
+import iotTotem from "@/assets/dashboardtotem.png";
 
 const features = [
   { icon: LayoutDashboard, title: "Dashboards", desc: "Indicadores académicos en una sola vista." },
