@@ -85,7 +85,7 @@ const WayfindingSection = () => (
               Explora una demo interactiva del mapa de navegación digital del centro educativo.
             </p>
             <a
-              href="https://maps.situm.com/Situm?wl=true&lng=es&building_id=19027&floor_id=64456"
+              href="https://digital.logopost.es/pre-edu/mapa.html"
               target="_blank"
               rel="noopener noreferrer"
             >
