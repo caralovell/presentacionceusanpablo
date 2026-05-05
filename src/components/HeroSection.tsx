@@ -61,7 +61,7 @@ const HeroSection = () => (
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Persona de contacto:</span>{" "}
-          <span className="text-foreground/80">[Nombre y apellidos]</span>
+          <span className="text-foreground/80">Domingo Sánchez Fernández-Aparicio</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">David Ochoa Tapia</span>
